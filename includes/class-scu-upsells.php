@@ -44,6 +44,9 @@ class SCU_Upsells {
 
 		// Supply an updated HTML fragment each time the cart changes via AJAX.
 		add_filter( 'woocommerce_add_to_cart_fragments', array( $this, 'cart_fragments' ) );
+
+		// Elementor Pro's side cart uses its own fragment filter.
+		add_filter( 'elementor_menu_cart_fragments', array( $this, 'cart_fragments' ) );
 	}
 
 	// -------------------------------------------------------------------------
