@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name:       Side Cart Upsells
+ * Plugin Name:       DH - Side Cart Upsells
  * Plugin URI:        https://github.com/mlmarklozano/ml-sidecart-upsell
  * Description:       Adds a dynamic "Don't miss out" upsell section inside the Elementor WooCommerce side cart.
  * Version:           1.0.0
